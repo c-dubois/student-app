@@ -5,16 +5,22 @@ import ClassInfo from './components/ClassInfo';
 function App() {
   const studentData = [
     {
+      id: 1,
       name: 'Ada',
-      email: 'ada@dev.org'
+      email: 'ada@dev.org',
+      isPresentData: false,
     },
     {
+      id: 2, 
       name: 'Soo-ah',
-      email: 'sooah@dev.org'
+      email: 'sooah@dev.org',
+      isPresentData: false,
     },
     {
+      id: 3, 
       name: 'Chrissy',
-      email: 'chrissy@dev.org'
+      email: 'chrissy@dev.org',
+      isPresentData: true,
     }
   ];
 
